@@ -3,9 +3,22 @@
 */
 package sort
 
+func getK(a []int) int {
+	if len(a) == 0 {
+		return 1
+	}
+	k := a[0]
+	for _, v := range a {
+		if v > k {
+			k = v
+		}
+	}
+	return k+1
+}
 
-func CountingSort(array []int, k int) {
+func CountingSort(array []int) {
 	l := len(array)
+	k := getK(array)
 	b := make([]int, k)	// array of counts
 	for i:= 0; i < l; i++ {
 		b[array[i]] += 1
