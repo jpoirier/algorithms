@@ -1,11 +1,8 @@
 /*
 
 */
-package main
+package sort
 
-import (
-	"fmt"
-)
 
 func selectMax(a []int) int {
 	i := 0
@@ -31,18 +28,4 @@ func SelectionSort(array []int) {
 			array[i], array[maxPos] = array[maxPos], array[i]
 		}
 	}
-}
-
-func main() {
-	array := []int{19, 2, 23, 0, 24, 7, 11, 22, 4, 21, 21, 2}
-	fmt.Println("Unsorted: ", array)
-	SelectionSort(array)
-	fmt.Println("Sorted  : ", array)
-	for i := len(array) - 1; i > 0; i-- {
-		if array[i] < array[i-1] {
-			fmt.Println("FAILED")
-			return
-		}
-	}
-	fmt.Println("PASSED")
 }

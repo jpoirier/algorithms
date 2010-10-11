@@ -1,11 +1,8 @@
 /*
 
 */
-package main
+package sort
 
-import (
-	"fmt"
-)
 
 func buildHeap(a []int) {
 	l := len(a)
@@ -40,18 +37,4 @@ func HeapSort(array []int) {
 		array[0], array[i] = array[i], array[0]
 		heapify(array[0:i+1])
 	}
-}
-
-func main() {
-	array := []int{88, 54, 37, 28, 9, 2, 1, 7}
-	fmt.Println("Unsorted: ", array)
-	HeapSort(array)
-	fmt.Println("Sorted  : ", array)
-	for i := len(array) - 1; i > 0; i-- {
-		if array[i] < array[i-1] {
-			fmt.Println("FAILED")
-			return
-		}
-	}
-	fmt.Println("PASSED")
 }
