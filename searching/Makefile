@@ -8,6 +8,7 @@ TARG=algos/search
 
 GOFILES=\
 	binary_search.go\
+	binarytree_search.go\
 	hash_search.go\
 	sequential_search.go\
 
