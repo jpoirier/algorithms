@@ -5,6 +5,7 @@ TARG=algos/sort
 
 GOFILES=\
 	partition.go\
+	bucket_sort.go\
 	counting_sort.go\
 	heap_sort.go\
 	insertion_sort.go\

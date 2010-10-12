@@ -76,11 +76,10 @@ func TestSelectionSort(t *testing.T) {
 	}
 }
 
-
-//func TestBucketSort(t *testing.T) {
-//	array := []int{89, 606, 533, 1999, 3, 1, 22, 604, 605, 77}
-//	QuickSort(array)
-//	if !is_sorted(array) {
-//		t.Fail()
-//	}
-//}
+func TestBucketSort(t *testing.T) {
+	array := []int{7, 5, 3, 13, 2, 14, 1, 6}
+	BucketSort(array)
+	if !is_sorted(array) {
+		t.Fail()
+	}
+}
