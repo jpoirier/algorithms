@@ -3,7 +3,7 @@
  Distributable under the terms of The New BSD License
  that can be found in the LICENSE file.
 */
-package search
+package searching
 
 
 func SequentialSearch(array []int, t int) bool {

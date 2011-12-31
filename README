@@ -1,14 +1,18 @@
 Description
 ------------
+Go language implementation of selected algorithms from the 
+"Algorithms in a Nutshell" book. The source code attempts to follow,
+as closely as possible, the algorithm pseudocode from the book.
 
 
-Compiling
----------
-    make
+Building/Installing/Testing
+---------------------------
 
-Testing
--------
-    make test
+    $ make [all|clean|install|test|build]
+
+    all   : calls clean, install, and test
+    build : compiles but doesn't install
+
 
 Usage
 -----
@@ -16,4 +20,51 @@ Usage
 
 Examples
 --------
+    
+    Status                                  Completed
+    ----------------------------------------------------------
+    Sorting Algorithms:                          [X]
+        Insertion Sort                      [X]
+        Median Sort                         [X]
+        Quick Sort                          [X]
+        Selection Sort                      [X]
+        Heap Sort                           [X]
+        Counting Sort                       [X]
+        Bucket Sort                         [X]
+	
+    Searching:                                   []
+        Sequential Search                   [X]
+        Binary Search                       [X]
+        Hash-based Search                   []
+        Binary Tree Search                  []
+	
+    Graph Algorithms:                            []
+        Depth-First Search                  []
+        Breadth-First Search                []
+        Single-Source Shortest Path         []
+        All Pairs Shortest Path             []
+        Minimum Spanning Tree Algorithms    []
+	
+    Path Finding in AI:                          []
+        Depth-First Search                  []
+        Breadth-First Search                []
+        A*Search                            []
+        Comparison                          []
+        Minimax                             []
+        NegMax                              []
+        AlphaBeta                           []
+	
+    Network Flow Algorithms:                     []
+        Maximum Flow                        []
+        Bipartite Matching                  []
+        Minimum Cost Flow                   []
+        Transshipment                       []
+        Transportation                      []
+        Linear Programming                  []
+	
+    Computational Geometry:                      []
+        Convex Hull Scan                    []
+        LineSweep                           []
+        Nearest Neighbor Queries            []
+        Range Queries                       []
 

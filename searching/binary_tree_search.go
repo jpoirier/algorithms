@@ -6,6 +6,6 @@
 package searching
 
 
-func HashSearch(array []int, t int) bool {
+func BinaryTreeSearch(array []int, t int) bool {
 return true
 }

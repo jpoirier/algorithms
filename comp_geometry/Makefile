@@ -4,12 +4,12 @@
 
 include $(GOROOT)/src/Make.inc
 
-TARG=algos/searching
+TARG=algos/comp_geometry
 
 GOFILES=\
-	binary_search.go\
-	binary_tree_search.go\
-	hash_search.go\
-	sequential_search.go\
+	convex_hull_scan.go\
+	linesweep.go\
+	nearest_neighbor_queries.go\
+	range_queries.go\
 
 include $(GOROOT)/src/Make.pkg

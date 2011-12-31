@@ -3,9 +3,9 @@
  Distributable under the terms of The New BSD License
  that can be found in the LICENSE file.
 */
-package searching
+package path_finding
 
 
-func HashSearch(array []int, t int) bool {
+func AlphaBeta(array []int, t int) bool {
 return true
 }

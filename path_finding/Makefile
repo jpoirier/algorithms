@@ -4,12 +4,16 @@
 
 include $(GOROOT)/src/Make.inc
 
-TARG=algos/searching
+TARG=algos/path_finding
 
 GOFILES=\
-	binary_search.go\
-	binary_tree_search.go\
-	hash_search.go\
-	sequential_search.go\
+	a_search.go\
+	AlphaBeta.go\
+	depthfirst_search.go\
+	comparison.go\
+	depthfirst_search.go\
+	minimax.go\
+	negmax.go\
+	negmax.go\
 
 include $(GOROOT)/src/Make.pkg

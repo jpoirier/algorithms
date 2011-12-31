@@ -3,10 +3,10 @@
  Distributable under the terms of The New BSD License
  that can be found in the LICENSE file.
 */
-package sort
+package sorting
 
 import (
-	"rand"
+	"math/rand"
 )
 
 

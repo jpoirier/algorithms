@@ -4,7 +4,7 @@
 
 include $(GOROOT)/src/Make.inc
 
-TARG=algos/sort
+TARG=algos/sorting
 
 GOFILES=\
 	partition.go\

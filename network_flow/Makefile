@@ -4,12 +4,14 @@
 
 include $(GOROOT)/src/Make.inc
 
-TARG=algos/searching
+TARG=algos/network_flow
 
 GOFILES=\
-	binary_search.go\
-	binary_tree_search.go\
-	hash_search.go\
-	sequential_search.go\
+	bipartite_matching.go\
+	linear_programming.go\
+	maximum_flow.go\
+	minimum_cost_flow.go\
+	transportation.go\
+	transshipment.go\
 
 include $(GOROOT)/src/Make.pkg
